@@ -37,7 +37,7 @@
             "links": [
               {
                 "faIcon": "fa-solid fa-link",
-                "href": "https://github.com/yourusername/paperscissors"
+                "href": "https://github.com/Tharunraj-U/Rock-paper-scissors-js.git"
               }
             ],
             "media": {
@@ -55,7 +55,6 @@
               }
             }
           },
-        
           {
             "categoryId": "projects",
             "icon": {
@@ -69,7 +68,7 @@
             "links": [
               {
                 "faIcon": "fa-solid fa-link",
-                "href": "https://github.com/yourusername/emailsender"
+                "href": "https://mail-sender-front-end.vercel.app/"
               }
             ],
             "media": {
@@ -90,37 +89,6 @@
           {
             "categoryId": "projects",
             "icon": {
-              "img": "images/pictures/job-portal.png",
-              "fa": "",
-              "faColors": {
-                "bg": null,
-                "fill": null
-              }
-            },
-            "links": [
-              {
-                "faIcon": "fa-solid fa-link",
-                "href": "https://github.com/yourusername/jobportal"
-              }
-            ],
-            "media": {
-              "youtubeVideo": "",
-              "screenshots": {
-                "aspectRatio": null,
-                "images": ["jobportal"]
-              }
-            },
-            "locales": {
-              "en": {
-                "title": "Job Portal",
-                "text": "A platform for job seekers to search and apply for jobs and for recruiters to post job openings.",
-                "tags": ["React", "Spring Boot", "MySQL"]
-              }
-            }
-          },
-          {
-            "categoryId": "projects",
-            "icon": {
               "img": "images/pictures/cgpa-calculator.png",
               "fa": "",
               "faColors": {
@@ -131,7 +99,7 @@
             "links": [
               {
                 "faIcon": "fa-solid fa-link",
-                "href": "https://github.com/yourusername/cgpacalculator"
+                "href": "https://github.com/Tharunraj-U/CGPA-CALCULATOR-FRONTEND.git"
               }
             ],
             "media": {
@@ -162,7 +130,7 @@
             "links": [
               {
                 "faIcon": "fa-solid fa-link",
-                "href": "https://github.com/yourusername/todolist"
+                "href": "https://tharun-todo-react.vercel.app/"
               }
             ],
             "media": {
@@ -193,7 +161,7 @@
             "links": [
               {
                 "faIcon": "fa-solid fa-link",
-                "href": "https://github.com/yourusername/chatapp"
+                "href": "https://chatapplication-lu48.onrender.com/"
               }
             ],
             "media": {
@@ -224,7 +192,7 @@
             "links": [
               {
                 "faIcon": "fa-solid fa-link",
-                "href": "https://github.com/yourusername/aitutor"
+                "href": "https://ai-tutor-two-orcin.vercel.app/"
               }
             ],
             "media": {
@@ -237,7 +205,7 @@
             "locales": {
               "en": {
                 "title": "AI Tutor",
-                "text": "An AI-based tutor application using GPT-3 for interactive learning and answering questions.",
+                "text": "An AI-based tutor application using Gemmini|Lamma for interactive learning and answering questions.",
                 "tags": ["GPT-3", "AI", "Java", "Spring Boot"]
               }
             }
@@ -255,7 +223,7 @@
             "links": [
               {
                 "faIcon": "fa-solid fa-link",
-                "href": "https://github.com/yourusername/netflixclone"
+                "href": "https://github.com/Tharunraj-U/Netflix.git"
               }
             ],
             "media": {
@@ -286,7 +254,7 @@
             "links": [
               {
                 "faIcon": "fa-solid fa-link",
-                "href": "https://github.com/yourusername/currencyconverter"
+                "href": "https://github.com/Tharunraj-U/CurrencyConvertorBackend-.git"
               }
             ],
             "media": {
@@ -317,7 +285,7 @@
             "links": [
               {
                 "faIcon": "fa-solid fa-link",
-                "href": "https://github.com/yourusername/fooddeliverybackend"
+                "href": "https://github.com/Tharunraj-U/FOOD_APP-BACKEND.git"
               }
             ],
             "media": {
@@ -332,6 +300,37 @@
                 "title": "Food Delivery Backend",
                 "text": "A backend application for a food delivery system built with Spring Boot and JPA for database management.",
                 "tags": ["Spring Boot", "JPA", "Backend"]
+              }
+            }
+          },
+          {
+            "categoryId": "projects",
+            "icon": {
+              "img": "images/pictures/news-website.png",
+              "fa": "",
+              "faColors": {
+                "bg": null,
+                "fill": null
+              }
+            },
+            "links": [
+              {
+                "faIcon": "fa-solid fa-link",
+                "href": "https://code-n-surge-tech-titans.vercel.app/"
+              }
+            ],
+            "media": {
+              "youtubeVideo": "",
+              "screenshots": {
+                "aspectRatio": null,
+                "images": ["newswebsite"]
+              }
+            },
+            "locales": {
+              "en": {
+                "title": "News Website",
+                "text": "A dynamic news platform that fetches and displays live headlines from a news API. Users can browse categories, view details, and search for trending topics.",
+                "tags": ["React", "News API", "Tailwind CSS"]
               }
             }
           }
