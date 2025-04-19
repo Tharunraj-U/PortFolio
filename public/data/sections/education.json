@@ -1,0 +1,76 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        },
+
+        "fr": {
+            "title": "Éducation",
+            "title_long_prefix": "C'est mon",
+            "title_long": "**Contexte** Éducatif"
+        },
+
+        "ko": {
+            "title": "교육",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**교육적** 배경"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-5.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2015",
+                        "end": "12/01/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor** in Computer Science",
+                            "info": "MIT",
+                            "text": "Earned a Bachelor's degree in Computer Science, focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects and boot camps.",
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "**Licenciatura** en Ciencias de la Computación",
+                            "info": "MIT",
+                            "text": "Obtuve una licenciatura en Ciencias de la Computación, con un enfoque en algoritmos, estructuras de datos, ingeniería de software y desarrollo web. Adquirí experiencia práctica a través de varios proyectos de programación y campamentos de entrenamiento.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "**Licence** en Informatique",
+                            "info": "MIT",
+                            "text": "Obtenu une licence en Informatique, avec un accent sur les algorithmes, les structures de données, l'ingénierie logicielle et le développement web. Acquis une expérience pratique à travers divers projets de programmation et camps de formation.",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "**학사** 컴퓨터 과학",
+                            "info": "MIT",
+                            "text": "알고리즘, 데이터 구조, 소프트웨어 공학 및 웹 개발에 중점을 둔 컴퓨터 과학 학사 학위를 취득했습니다. 다양한 프로그래밍 프로젝트와 부트캠프를 통해 실무 경험을 쌓았습니다.",
+                            "tags": null
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
