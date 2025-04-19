@@ -38,15 +38,6 @@
           }
         },
         {
-          "value": "Resume",
-          "links": [{"href": "./TharunResume.pdf"}],
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-envelope",
-            "faColors": {"bg": null, "fill": null}
-          }
-        },
-        {
           "value": "@Tharunraj-U",
           "links": [{"href": "https://github.com/Tharunraj-U"}],
           "icon": {
@@ -54,8 +45,16 @@
             "fa": "fa-brands fa-github",
             "faColors": {"bg": null, "fill": null}
           }
+        },
+        {
+          "value": "Resume",
+          "links": [{"href": "./TharunResume.pdf"}],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-file-signature",
+            "faColors": {"bg": null, "fill": null}
+          }
         }
-    
       ]
     },
     {
