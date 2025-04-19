@@ -6,7 +6,7 @@ import BorderWrap from "/src/components/wrappers/BorderWrap.jsx"
 import Scrollable from "/src/components/capabilities/Scrollable.jsx"
 import {useLanguage} from "/src/providers/LanguageProvider.jsx"
 import {useUtils} from "/src/helpers/utils.js"
-
+import LostProgrammerCanvas from '/src/components/layout/LostProgrammerModel.jsx'
 import ArticleCards from "/src/components/articles/ArticleCards.jsx"
 import ArticleContactForm from "/src/components/articles/ArticleContactForm.jsx"
 import ArticleGrid from "/src/components/articles/ArticleGrid.jsx"
@@ -145,17 +145,24 @@ function SectionHeader({section}) {
     return (
      
         <div className={`section-header w-100 px-0 px-md-3 text-center ${prefix ? `mt-0` : `mt-1 mt-sm-2 mt-lg-4`}`}>
-            {prefix && (
-                <div className={`fw-bold text-muted lead-2 font-family-headings mb-2`}>
-                    <FaIcon className={`me-2 opacity-50`} iconName={'fa-solid fa-cubes'}/>
-                    <span dangerouslySetInnerHTML={{__html:prefix || ``}}/>
-                </div>
-            )}
-
-            <h3 className={`fw-bold ${isBreakpoint('lg') ? 'lead-4' : ''} mx-4 mb-0`}
-                dangerouslySetInnerHTML={{__html: title}}/>
-                 {/* {section.id === 'about' &&<SympoLogo /> }      */}
-        </div>
+        {prefix && (
+            <div className={`fw-bold text-muted lead-2 font-family-headings mb-2`}>
+                <FaIcon className={`me-2 opacity-50`} iconName={'fa-solid fa-cubes'}/>
+                <span dangerouslySetInnerHTML={{__html:prefix || ``}}/>
+            </div>
+        )}
+    
+        <h3 className={`fw-bold ${isBreakpoint('lg') ? 'lead-4' : ''} mx-4 mb-0`}
+            dangerouslySetInnerHTML={{__html: title}}/>
+    
+        {/* Show model only on large screens */}
+        {isBreakpoint('lg') && section.id === 'about' && (
+            <div className="d-flex justify-content-center mt-3">
+                <LostProgrammerCanvas />
+            </div>
+        )}
+    </div>
+    
               
     )
 }
