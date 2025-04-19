@@ -1,76 +1,86 @@
 {
     "locales": {
-        "en": {
-            "title": "Education",
-            "title_long_prefix": "This is my",
-            "title_long": "**Educational** Background"
-        },
-
-        "es": {
-            "title": "Educación",
-            "title_long_prefix": "Esta es mi",
-            "title_long": "**Formación** Educativa"
-        },
-
-        "fr": {
-            "title": "Éducation",
-            "title_long_prefix": "C'est mon",
-            "title_long": "**Contexte** Éducatif"
-        },
-
-        "ko": {
-            "title": "교육",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**교육적** 배경"
-        }
+      "en": {
+        "title": "Education",
+        "title_long_prefix": "This is my",
+        "title_long": "**Educational** Background"
+      }
     },
-
     "articles": [
-        {
-            "id": "academic",
-            "component": "ArticleTimeline",
-            "config": {},
-            "locales": {},
-
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/pictures/place-5.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "01/01/2015",
-                        "end": "12/01/2019"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Bachelor** in Computer Science",
-                            "info": "MIT",
-                            "text": "Earned a Bachelor's degree in Computer Science, focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects and boot camps.",
-                            "tags": []
-                        },
-                        "es": {
-                            "title": "**Licenciatura** en Ciencias de la Computación",
-                            "info": "MIT",
-                            "text": "Obtuve una licenciatura en Ciencias de la Computación, con un enfoque en algoritmos, estructuras de datos, ingeniería de software y desarrollo web. Adquirí experiencia práctica a través de varios proyectos de programación y campamentos de entrenamiento.",
-                            "tags": null
-                        },
-                        "fr": {
-                            "title": "**Licence** en Informatique",
-                            "info": "MIT",
-                            "text": "Obtenu une licence en Informatique, avec un accent sur les algorithmes, les structures de données, l'ingénierie logicielle et le développement web. Acquis une expérience pratique à travers divers projets de programmation et camps de formation.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**학사** 컴퓨터 과학",
-                            "info": "MIT",
-                            "text": "알고리즘, 데이터 구조, 소프트웨어 공학 및 웹 개발에 중점을 둔 컴퓨터 과학 학사 학위를 취득했습니다. 다양한 프로그래밍 프로젝트와 부트캠프를 통해 실무 경험을 쌓았습니다.",
-                            "tags": null
-                        }
-                    }
-                }
-            ]
-        }
+      {
+        "id": "academic",
+        "component": "ArticleTimeline",
+        "config": {},
+        "locales": {},
+        "items": [
+          {
+            "icon": {
+              "img": "images/pictures/images.png",
+              "fa": "",
+              "faColors": {
+                "bg": null,
+                "fill": null
+              }
+            },
+            "dates": {
+              "start": "08/01/2022",
+              "end": "Present"
+            },
+            "locales": {
+              "en": {
+                "title": "B.Tech in Information Technology",
+                "info": "Velammal Engineering College, Chennai (Anna University)",
+                "text": "Currently pursuing a Bachelor's degree in Information Technology with a CGPA of 8.4. Gained hands-on experience in full-stack development using React, Spring Boot, and MySQL. Actively participated in technical events and hackathons to enhance problem-solving and collaboration skills.",
+                "tags": []
+              }
+            }
+          },
+          {
+            "icon": {
+              "img": "images/pictures/School.jpg",
+              "fa": "",
+              "faColors": {
+                "bg": null,
+                "fill": null
+              }
+            },
+            "dates": {
+              "start": "06/01/2019",
+              "end": "04/01/2021"
+            },
+            "locales": {
+              "en": {
+                "title": "HSC (12th Standard)",
+                "info": "St. Joseph’s Matric Higher Secondary School",
+                "text": "Completed Higher Secondary Education with 84.044% under the Tamil Nadu State Board in 2021, focusing on science and mathematics.",
+                "tags": []
+              }
+            }
+          },
+          {
+            "icon": {
+              "img": "images/pictures/School.jpg",
+              "fa": "",
+              "faColors": {
+                "bg": null,
+                "fill": null
+              }
+            },
+            "dates": {
+              "start": "06/01/2017",
+              "end": "04/01/2019"
+            },
+            "locales": {
+              "en": {
+                "title": "SSLC (10th Standard)",
+                "info": "St. Joseph’s Matric Higher Secondary School",
+                "text": "Completed Secondary School Leaving Certificate (SSLC) with 79.4% under the Tamil Nadu State Board in 2019.",
+                "tags": []
+              }
+            }
+          }
+        ]
+      }
     ]
-}
+  }
+  
