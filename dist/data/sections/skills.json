@@ -1,0 +1,150 @@
+{
+    "locales": {
+      "en": {
+        "title": "Skills",
+        "title_long_prefix": "Explore",
+        "title_long": "My **Skill Set**"
+      }
+    },
+    "articles": [
+      {
+        "id": "core_programming",
+        "component": "ArticleList",
+        "locales": {
+          "en": { "title": "Core Programming" }
+        },
+        "items": [
+          {
+            "icon": { "img": null, "fa": "fa-brands fa-java", "faColors": { "bg": "#007396", "fill": "#EEE" } },
+            "value": 90,
+            "locales": { "en": { "title": "Java", "info": "Strong OOP, data structures, algorithms, backend dev" } }
+          },
+          {
+            "icon": { "img": null, "fa": "fa-solid fa-c", "faColors": { "bg": "#A8B9CC", "fill": "#111" } },
+            "value": 70,
+            "locales": { "en": { "title": "C", "info": "Foundational knowledge in system-level programming" } }
+          }
+        ]
+      },
+      {
+        "id": "frontend_skills",
+        "component": "ArticleList",
+        "locales": {
+          "en": { "title": "Frontend Development" }
+        },
+        "items": [
+          {
+            "icon": { "img": null, "fa": "fa-brands fa-react", "faColors": { "bg": "#61DAFB", "fill": "#111" } },
+            "value": 95,
+            "locales": { "en": { "title": "React.js", "info": "Component-driven UI, routing, state management" } }
+          },
+          {
+            "icon": { "img": null, "fa": "fa-brands fa-js", "faColors": { "bg": "#F7DF1E", "fill": "#111" } },
+            "value": 85,
+            "locales": { "en": { "title": "JavaScript", "info": "ES6+, DOM manipulation, API integration" } }
+          },
+          {
+            "icon": { "img": null, "fa": "fa-brands fa-html5", "faColors": { "bg": "#E34F26", "fill": "#EEE" } },
+            "value": 90,
+            "locales": { "en": { "title": "HTML5", "info": "Semantic HTML, accessibility, responsive layout" } }
+          },
+          {
+            "icon": { "img": null, "fa": "fa-brands fa-css3", "faColors": { "bg": "#1572B6", "fill": "#EEE" } },
+            "value": 80,
+            "locales": { "en": { "title": "CSS3", "info": "Responsive design, animations, Flex/Grid layout" } }
+          },
+          {
+            "icon": { "img": null, "fa": "fa-brands fa-css3-alt", "faColors": { "bg": "#06B6D4", "fill": "#111" } },
+            "value": 50,
+            "locales": { "en": { "title": "Tailwind CSS", "info": "Utility-first CSS framework for fast styling" } }
+          }
+        ]
+      },
+      {
+        "id": "backend_skills",
+        "component": "ArticleList",
+        "locales": {
+          "en": { "title": "Backend Development" }
+        },
+        "items": [
+          {
+            "icon": { "img": null, "fa": "fa-solid fa-seedling", "faColors": { "bg": "#6DB33F", "fill": "#FFF" } },
+            "value": 90,
+            "locales": { "en": { "title": "Spring Boot", "info": "REST APIs, MVC, Data JPA, Thymeleaf" } }
+          },
+          {
+            "icon": { "img": null, "fa": "fa-solid fa-shield-halved", "faColors": { "bg": "#4CAF50", "fill": "#EEE" } },
+            "value": 65,
+            "locales": { "en": { "title": "Spring Security (JWT)", "info": "Token-based authentication & access control" } }
+          },
+          {
+            "icon": { "img": null, "fa": "fa-solid fa-database", "faColors": { "bg": "#4479A1", "fill": "#EEE" } },
+            "value": 85,
+            "locales": { "en": { "title": "MySQL", "info": "Relational data design, joins, indexing, optimization" } }
+          },
+          {
+            "icon": { "img": null, "fa": "fa-solid fa-leaf", "faColors": { "bg": "#47A248", "fill": "#EEE" } },
+            "value": 40,
+            "locales": { "en": { "title": "MongoDB", "info": "Basic CRUD, schema-less document DB, NoSQL" } }
+          }
+        ]
+      },
+      {
+        "id": "tools_and_platforms",
+        "component": "ArticleList",
+        "locales": {
+          "en": { "title": "Tools & Platforms" }
+        },
+        "items": [
+          {
+            "icon": { "img": null, "fa": "fa-brands fa-git", "faColors": { "bg": "#F05032", "fill": "#111" } },
+            "value": 90,
+            "locales": { "en": { "title": "Git & GitHub", "info": "Version control, collaboration, branching strategies" } }
+          },
+          {
+            "icon": { "img": null, "fa": "fa-brands fa-docker", "faColors": { "bg": "#2496ED", "fill": "#EEE" } },
+            "value": 85,
+            "locales": { "en": { "title": "Docker", "info": "Containerization of Spring Boot & React apps" } }
+          },
+          {
+            "icon": { "img": null, "fa": "fa-solid fa-toolbox", "faColors": { "bg": "#FF6F61", "fill": "#EEE" } },
+            "value": 95,
+            "locales": { "en": { "title": "Postman, IntelliJ, VS Code", "info": "API testing & efficient development tooling" } }
+          }
+        ]
+      },
+      {
+        "id": "languages",
+        "component": "ArticleList",
+        "locales": {
+          "en": { "title": "Languages" }
+        },
+        "items": [
+          {
+            "icon": { "img": "images/flags/en.png", "fa": null, "faColors": { "bg": null, "fill": null } },
+            "value": null,
+            "locales": {
+              "en": {
+                "title": "English",
+                "info": "Fluent in reading, writing, and technical communication",
+                "tags": ["Fluent"]
+              }
+            }
+          },
+          {
+            
+            "icon": { "img": "/images/pictures/tamil.jpg", "fa": null, "faColors": { "bg": null, "fill": null } },
+            "value": null,
+            "locales": {
+              "en": {
+                "title": "Tamil",
+                "info": "Native speaker with strong communication ability",
+                "tags": ["Native"]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

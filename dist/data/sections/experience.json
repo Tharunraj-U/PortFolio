@@ -1,0 +1,78 @@
+{
+    "locales": {
+      "en": {
+        "title": "Experience",
+        "title_long_prefix": "Summary of my",
+        "title_long": "**Work** Experience"
+      }
+    },
+    "articles": [
+      {
+        "id": "work",
+        "component": "ArticleTimeline",
+        "config": {},
+        "locales": {},
+        "items": [
+          {
+            "icon": {
+               
+              "img": "images/pictures/Infosys.jpg",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "12/01/2024",
+              "end": "02/01/2025"
+            },
+            "locales": {
+              "en": {
+                "title": "**Java Full Stack Developer Intern**",
+                "info": "Infosys Springboard",
+                "text": "Built full-stack applications using Java Spring Boot, Thymeleaf, and MySQL. Participated in Agile Scrum ceremonies, implemented Spring validation for secure data handling, and collaborated in version control via Git.",
+                "tags": ["Spring Boot", "Thymeleaf", "MySQL", "Git", "Agile"]
+              }
+            }
+          },
+          {
+            "icon": {
+              "img": "images/pictures/NullClass.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "11/01/2024",
+              "end": "12/01/2024"
+            },
+            "locales": {
+              "en": {
+                "title": "**Java Full Stack Developer Intern**",
+                "info": "NullClass",
+                "text": "Created web apps using React.js on the frontend and Spring Boot on the backend. Developed RESTful APIs, managed component state, integrated SQL databases, and applied Spring validations.",
+                "tags": ["React.js", "Spring Boot", "REST APIs", "SQL", "Spring Validation"]
+              }
+            }
+          },
+          {
+            "icon": {
+              "img": "images/pictures/Codesoft.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "01/01/2024",
+              "end": "02/01/2024"
+            },
+            "locales": {
+              "en": {
+                "title": "**Java Programming Intern**",
+                "info": "CodeSoft",
+                "text": "Completed a 4-week internship focused on Java programming. Worked on multiple Java projects, practiced debugging, and improved project and task management skills.",
+                "tags": ["Java", "Debugging", "Object-Oriented Programming"]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

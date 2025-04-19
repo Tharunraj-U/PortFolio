@@ -27,7 +27,7 @@
           {
             "categoryId": "projects",
             "icon": {
-              "img": "images/pictures/stone-paper-scissors.png",
+              "img": "images/pictures/stone.png",
               "fa": "",
               "faColors": {
                 "bg": null,
@@ -58,7 +58,7 @@
           {
             "categoryId": "projects",
             "icon": {
-              "img": "images/pictures/email-sender.png",
+              "img": "images/pictures/mailsender.png",
               "fa": "",
               "faColors": {
                 "bg": null,
@@ -89,7 +89,7 @@
           {
             "categoryId": "projects",
             "icon": {
-              "img": "images/pictures/cgpa-calculator.png",
+              "img": "images/pictures/cgpa.png",
               "fa": "",
               "faColors": {
                 "bg": null,
@@ -120,7 +120,7 @@
           {
             "categoryId": "projects",
             "icon": {
-              "img": "images/pictures/todo-list.png",
+              "img": "images/pictures/todo.png",
               "fa": "",
               "faColors": {
                 "bg": null,
@@ -151,7 +151,7 @@
           {
             "categoryId": "projects",
             "icon": {
-              "img": "images/pictures/chat-app.png",
+              "img": "images/pictures/ChatApp.png",
               "fa": "",
               "faColors": {
                 "bg": null,
@@ -182,7 +182,7 @@
           {
             "categoryId": "projects",
             "icon": {
-              "img": "images/pictures/ai-tutor.png",
+              "img": "images/pictures/AiTutor.png",
               "fa": "",
               "faColors": {
                 "bg": null,
@@ -213,7 +213,7 @@
           {
             "categoryId": "projects",
             "icon": {
-              "img": "images/pictures/netflix-clone.png",
+              "img": "images/pictures/Netflix.png",
               "fa": "",
               "faColors": {
                 "bg": null,
@@ -244,7 +244,7 @@
           {
             "categoryId": "projects",
             "icon": {
-              "img": "images/pictures/currency-converter.png",
+              "img": "images/pictures/Curr.png",
               "fa": "",
               "faColors": {
                 "bg": null,
@@ -275,7 +275,7 @@
           {
             "categoryId": "projects",
             "icon": {
-              "img": "images/pictures/food-delivery-backend.png",
+              "img": "images/pictures/food.png",
               "fa": "",
               "faColors": {
                 "bg": null,
@@ -306,7 +306,7 @@
           {
             "categoryId": "projects",
             "icon": {
-              "img": "images/pictures/news-website.png",
+              "img": "images/pictures/NewsApp.png",
               "fa": "",
               "faColors": {
                 "bg": null,

@@ -1,0 +1,111 @@
+{
+    "locales": {
+      "en": {
+        "title": "Technical Events",
+        "title_menu": "Tech Highlights",
+        "title_long_prefix": "Proud moments from",
+        "title_long": "**Technical** Events & Hackathons"
+      }
+    },
+    "articles": [
+      {
+        "id": "tech_events",
+        "component": "ArticleThread",
+        "config": {},
+        "locales": {
+          "en": { "title": "Event Highlights" }
+        },
+        "items": [
+          {
+            "dates": { "start": "03/01/2025", "end": null },
+            "links": [],
+            "locales": {
+              "en": {
+                "title": "**1st Prize** – Duo Developers",
+                "info": "CabdOGNEBULA '25, Velammal Engineering College",
+                "text": "Won in the Duo Developers event at CabdOGNEBULA '25, a National Level Technical Symposium. Grateful for this opportunity and the support from everyone! ₹2000 cash prize."
+              }
+            }
+          },
+          {
+            "dates": { "start": "03/25/2025", "end": null },
+            "links": [],
+            "locales": {
+              "en": {
+                "title": "**Codevolt '25** – National Hackathon",
+                "info": "VIT Chennai, in collaboration with Raptee.HV and Zoho",
+                "text": "Participated in a 42-hour hackathon tackling real-world industry challenges. Built innovative tech prototypes in a high-pressure environment. An unforgettable professional experience that sparked creativity and collaboration."
+              }
+            }
+          },
+          {
+            "dates": { "start": "02/10/2024", "end": null },
+            "links": [],
+            "locales": {
+              "en": {
+                "title": "**1st Prize** – Code Twisters",
+                "info": "Xtrefest 6.0, Flarendo '24, Sri Sairam Engineering College",
+                "text": "Secured 1st Prize in the Code Twisters event organized by the Department of IT. Recognized for hard work, teamwork, and coding excellence. ₹2000 cash prize."
+              }
+            }
+          },
+          {
+            "dates": { "start": "03/15/2024", "end": null },
+            "links": [],
+            "locales": {
+              "en": {
+                "title": "**1st Place** – GLITCHED, Hackerz",
+                "info": "Chennai Institute of Technology",
+                "text": "Achieved 1st place in the GLITCHED event. Competed against skilled developers and demonstrated strong problem-solving capabilities. ₹2000 cash prize."
+              }
+            }
+          },
+          {
+            "dates": { "start": "04/01/2024", "end": null },
+            "links": [],
+            "locales": {
+              "en": {
+                "title": "**1st Prize** – INMATRIX'24",
+                "info": "Velammal Institute of Technology",
+                "text": "Won 1st place in the INMATRIX'24 coding challenge. Demonstrated programming skill and quick thinking in a competitive environment. ₹1000 cash prize."
+              }
+            }
+          },
+          {
+            "dates": { "start": "09/15/2024", "end": null },
+            "links": [],
+            "locales": {
+              "en": {
+                "title": "**Finalist** – CODE N' SURGE Hackathon",
+                "info": "SIMATS Engineering",
+                "text": "Built a full-stack web app using React and Firebase during this National Level Hackathon. Reached the final round. Gained insights into collaborative coding and Git workflows while witnessing diverse tech approaches."
+              }
+            }
+          },
+          {
+            "dates": { "start": "09/20/2024", "end": null },
+            "links": [],
+            "locales": {
+              "en": {
+                "title": "**Participant** – CodeQuezt Contest",
+                "info": "Naukri Campus",
+                "text": "Took part in a competitive DSA-focused contest. Applied algorithmic knowledge in real-time problem solving and enhanced coding confidence. A big step forward in my programming journey."
+              }
+            }
+          },
+          {
+            "dates": { "start": "03/10/2024", "end": null },
+            "links": [],
+            "locales": {
+              "en": {
+                "title": "**VTECH SPARK-2K24** – Paper Presentation & Coding",
+                "info": "Vel Tech R&D Institute of Science and Technology",
+                "text": "Participated in technical paper presentation, Brain Bush quiz, and various coding contests. Gained exposure to research, public speaking, and peer learning. Special thanks to Dr. Jeevaa Katiravan for the opportunity."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

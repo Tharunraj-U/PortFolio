@@ -2,29 +2,41 @@ import React, { Suspense, useRef, useEffect, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, useGLTF, Environment } from '@react-three/drei';
 
-// 🎵 Background Music Player Component
+// 🎵 Background Music Player Component with auto-play
 function BackgroundMusic() {
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
-    const previouslyPlaying = localStorage.getItem("bg-music-playing") === "true";
-
-    if (audioRef.current) {
-      audioRef.current.volume = 0.4;
-      audioRef.current.loop = true;
-
-      if (previouslyPlaying) {
-        audioRef.current.play().then(() => {
-          setIsPlaying(true);
-        }).catch(err => {
-          console.log("Autoplay blocked by browser:", err);
-        });
-      }
+    // Create a new audio element if it doesn't exist in session storage
+    if (!window.bgMusicElement) {
+      window.bgMusicElement = new Audio('/3D/music.mp3');
+      window.bgMusicElement.volume = 0.1;
+      window.bgMusicElement.loop = true;
+    }
+    
+    // Use the global audio element
+    audioRef.current = window.bgMusicElement;
+    
+    // Check if music should be playing based on localStorage
+    const shouldPlay = localStorage.getItem("bg-music-playing") !== "false";
+    
+    // Set initial state based on the audio's current playing status
+    setIsPlaying(!audioRef.current.paused);
+    
+    // Auto-play if it should be playing
+    if (shouldPlay && audioRef.current.paused) {
+      audioRef.current.play().then(() => {
+        setIsPlaying(true);
+        localStorage.setItem("bg-music-playing", "true");
+      }).catch(err => {
+        console.log("Autoplay blocked by browser:", err);
+      });
     }
 
     const resumeOnInteraction = () => {
-      if (!isPlaying && previouslyPlaying && audioRef.current) {
+      const shouldPlay = localStorage.getItem("bg-music-playing") !== "false";
+      if (shouldPlay && audioRef.current && audioRef.current.paused) {
         audioRef.current.play().then(() => {
           setIsPlaying(true);
         }).catch(err => {
@@ -39,6 +51,7 @@ function BackgroundMusic() {
     return () => {
       window.removeEventListener("click", resumeOnInteraction);
       window.removeEventListener("keydown", resumeOnInteraction);
+      // Don't stop the music when component unmounts
     };
   }, []);
 
@@ -61,12 +74,12 @@ function BackgroundMusic() {
 
   return (
     <div style={{
-      position: 'absolute',
+      position: 'fixed', // Changed from 'absolute' to 'fixed' to stay in view across pages
       bottom: '10px',
       right: '10px',
-      zIndex: 1000
+      zIndex: 1000,
+      translate: 'translateY(-50%)'
     }}>
-      <audio ref={audioRef} src="/3D/music.mp3" />
       <button
         onClick={togglePlay}
         style={{

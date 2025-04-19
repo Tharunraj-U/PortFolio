@@ -1,0 +1,119 @@
+{
+  "locales": {
+    "en": {
+      "title": "Welcome!",
+      "title_menu": "About me",
+      "title_long_prefix": "Hello...",
+      "title_long": "I'm **Tharun Raj !**"
+    }
+  },
+  "articles": [
+    {
+      "id": "contact_list",
+      "component": "ArticleGrid",
+      "config": {
+        "ignorePaddingTop": true,
+        "format": "inline"
+      },
+      "locales": {
+        "en": {}
+      },
+      "items": [
+        {
+          "value": "Chennai, India",
+          "links": [{"href": null}],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-city",
+            "faColors": {"bg": null, "fill": null}
+          }
+        },
+        {
+          "value": "Tharunraj2023@gmail.com",
+          "links": [{"href": "mailto:Tharunraj2023@gmail.com"}],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-envelope",
+            "faColors": {"bg": null, "fill": null}
+          }
+        },
+        {
+          "value": "@Tharunraj-U",
+          "links": [{"href": "https://github.com/Tharunraj-U"}],
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-github",
+            "faColors": {"bg": null, "fill": null}
+          }
+        }
+      ]
+    },
+    {
+      "id": "short_description",
+      "component": "ArticleInfoBlock",
+      "config": {},
+      "locales": {
+        "en": {
+          "title": "**A little bit** about me..."
+        }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": "images/svg/logo.svg",
+            "fa": null,
+            "faColors": {"bg": null, "fill": null}
+          },
+          "locales": {
+            "en": {
+              "text": "<p><strong>I’m a Full Stack Java Developer passionate about building scalable, secure, and high-performance web applications.</strong></p><p>With hands-on expertise in <strong>Java, JavaScript, React, Spring Boot, Spring Security, JPA, and OAuth</strong>, I specialize in developing robust backend services and seamlessly integrating frontend and backend systems to deliver smooth user experiences.</p><p>I also bring experience with <strong>Docker, RESTful APIs, and MySQL</strong> for efficient database and deployment management. My focus is on crafting solutions that are not only functional but also scalable, maintainable, and optimized for growth.</p><p><strong>Let’s collaborate and turn your ideas into powerful, production-ready applications!</strong></p>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "interests",
+      "component": "ArticleGrid",
+      "config": {
+        "format": "grid"
+      },
+      "locales": {
+        "en": {
+          "title": "Personal **interests**"
+        }
+      },
+      "items": [
+             
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-dumbbell",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Gym",
+              "info": "Staying active, lifting weights, and maintaining a healthy lifestyle."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-code",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Coding",
+              "info": "Solving problems, building projects, and exploring new technologies."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
