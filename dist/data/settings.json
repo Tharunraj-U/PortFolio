@@ -55,7 +55,7 @@
       }
     ],
   
-    "emailjs": {
+   "emailjs": {
       "publicKey": "K_WbHLadi7xwnyUl7",
       "serviceId": "service_v97xjsk",
       "templateId": "template_x7cvpvj"

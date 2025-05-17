@@ -1,341 +1,371 @@
 {
-    "locales": {
-      "en": {
-        "title": "Portfolio",
-        "title_long_prefix": "Take a look at",
-        "title_long": "My **Portfolio**"
-      }
-    },
-    "articles": [
-      {
-        "id": "portfolio",
-        "component": "ArticlePortfolio",
-        "config": {},
-        "locales": {},
-        "categories": [
-          {
-            "id": "projects",
-            "locales": {
-              "en": {
-                "singular": "Project",
-                "plural": "Projects"
-              }
+  "locales": {
+    "en": {
+      "title": "Portfolio",
+      "title_long_prefix": "Take a look at",
+      "title_long": "My **Portfolio**"
+    }
+  },
+  "articles": [
+    {
+      "id": "portfolio",
+      "component": "ArticlePortfolio",
+      "config": {},
+      "locales": {},
+      "categories": [
+        {
+          "id": "projects",
+          "locales": {
+            "en": {
+              "singular": "Project",
+              "plural": "Projects"
             }
           }
-        ],
-        "items": [
-          {
-            "categoryId": "projects",
-            "icon": {
-              "img": "images/pictures/stone.png",
-              "fa": "",
-              "faColors": {
-                "bg": null,
-                "fill": null
-              }
-            },
-            "links": [
-              {
-                "faIcon": "fa-solid fa-link",
-                "href": "https://github.com/Tharunraj-U/Rock-paper-scissors-js.git"
-              }
-            ],
-            "media": {
-              "youtubeVideo": "",
-              "screenshots": {
-                "aspectRatio": null,
-                "images": ["stone"]
-              }
-            },
-            "locales": {
-              "en": {
-                "title": "Stone Paper Scissors",
-                "text": "A classic game of rock, paper, scissors implemented with interactive features.",
-                "tags": ["React", "JavaScript"]
-              }
+        }
+      ],
+      "items": [
+        {
+          "categoryId": "projects",
+          "icon": {
+            "img": "images/pictures/shrinky.png",
+            "fa": "",
+            "faColors": {
+              "bg": null,
+              "fill": null
             }
           },
-          {
-            "categoryId": "projects",
-            "icon": {
-              "img": "images/pictures/mailsender.png",
-              "fa": "",
-              "faColors": {
-                "bg": null,
-                "fill": null
-              }
-            },
-            "links": [
-              {
-                "faIcon": "fa-solid fa-link",
-                "href": "https://mail-sender-front-end.vercel.app/"
-              }
-            ],
-            "media": {
-              "youtubeVideo": "",
-              "screenshots": {
-                "aspectRatio": null,
-                "images": ["mailsender"]
-              }
-            },
-            "locales": {
-              "en": {
-                "title": "Email Sender",
-                "text": "An application to send emails using a Java backend and React.",
-                "tags": ["Java", "React", "Spring Boot"]
-              }
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://shrinky-url.vercel.app/"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "https://shrinky-url.vercel.app/",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": ["shrinky-home", "shrinky-dashboard"]
             }
           },
-          {
-            "categoryId": "projects",
-            "icon": {
-              "img": "images/pictures/cgpa.png",
-              "fa": "",
-              "faColors": {
-                "bg": null,
-                "fill": null
-              }
-            },
-            "links": [
-              {
-                "faIcon": "fa-solid fa-link",
-                "href": "https://github.com/Tharunraj-U/CGPA-CALCULATOR-FRONTEND.git"
-              }
-            ],
-            "media": {
-              "youtubeVideo": "",
-              "screenshots": {
-                "aspectRatio": null,
-                "images": ["cgpa"]
-              }
-            },
-            "locales": {
-              "en": {
-                "title": "CGPA Calculator",
-                "text": "An application to calculate CGPA based on grades and credit hours using JWT and MySQL for storing student data.",
-                "tags": ["Spring Boot", "Spring Security", "React", "java MailSender", "MySQL", "JWT & OAuth2"]
-              }
-            }
-          },
-          {
-            "categoryId": "projects",
-            "icon": {
-              "img": "images/pictures/todo.png",
-              "fa": "",
-              "faColors": {
-                "bg": null,
-                "fill": null
-              }
-            },
-            "links": [
-              {
-                "faIcon": "fa-solid fa-link",
-                "href": "https://tharun-todo-react.vercel.app/"
-              }
-            ],
-            "media": {
-              "youtubeVideo": "",
-              "screenshots": {
-                "aspectRatio": null,
-                "images": ["todo"]
-              }
-            },
-            "locales": {
-              "en": {
-                "title": "ToDo List",
-                "text": "A task management application for creating, updating, and deleting tasks.",
-                "tags": ["React", "Tailwind CSS"]
-              }
-            }
-          },
-          {
-            "categoryId": "projects",
-            "icon": {
-              "img": "images/pictures/ChatApp.png",
-              "fa": "",
-              "faColors": {
-                "bg": null,
-                "fill": null
-              }
-            },
-            "links": [
-              {
-                "faIcon": "fa-solid fa-link",
-                "href": "https://chatapplication-lu48.onrender.com/"
-              }
-            ],
-            "media": {
-              "youtubeVideo": "",
-              "screenshots": {
-                "aspectRatio": null,
-                "images": ["chatapp"]
-              }
-            },
-            "locales": {
-              "en": {
-                "title": "Chat App",
-                "text": "A real-time chat application built with WebSocket and Spring Boot for real-time communication.",
-                "tags": ["Spring Boot", "WebSocket", "React"]
-              }
-            }
-          },
-          {
-            "categoryId": "projects",
-            "icon": {
-              "img": "images/pictures/AiTutor.png",
-              "fa": "",
-              "faColors": {
-                "bg": null,
-                "fill": null
-              }
-            },
-            "links": [
-              {
-                "faIcon": "fa-solid fa-link",
-                "href": "https://ai-tutor-two-orcin.vercel.app/"
-              }
-            ],
-            "media": {
-              "youtubeVideo": "",
-              "screenshots": {
-                "aspectRatio": null,
-                "images": ["aitutor"]
-              }
-            },
-            "locales": {
-              "en": {
-                "title": "AI Tutor",
-                "text": "An AI-based tutor application using Gemmini|Lamma for interactive learning and answering questions.",
-                "tags": ["GPT-3", "AI", "Java", "Spring Boot"]
-              }
-            }
-          },
-          {
-            "categoryId": "projects",
-            "icon": {
-              "img": "images/pictures/Netflix.png",
-              "fa": "",
-              "faColors": {
-                "bg": null,
-                "fill": null
-              }
-            },
-            "links": [
-              {
-                "faIcon": "fa-solid fa-link",
-                "href": "https://github.com/Tharunraj-U/Netflix.git"
-              }
-            ],
-            "media": {
-              "youtubeVideo": "",
-              "screenshots": {
-                "aspectRatio": null,
-                "images": ["netflixclone"]
-              }
-            },
-            "locales": {
-              "en": {
-                "title": "Netflix Clone",
-                "text": "A simple clone of Netflix built with React, MongoDB, and Express.",
-                "tags": ["MongoDB", "React", "Express"]
-              }
-            }
-          },
-          {
-            "categoryId": "projects",
-            "icon": {
-              "img": "images/pictures/Curr.png",
-              "fa": "",
-              "faColors": {
-                "bg": null,
-                "fill": null
-              }
-            },
-            "links": [
-              {
-                "faIcon": "fa-solid fa-link",
-                "href": "https://github.com/Tharunraj-U/CurrencyConvertorBackend-.git"
-              }
-            ],
-            "media": {
-              "youtubeVideo": "",
-              "screenshots": {
-                "aspectRatio": null,
-                "images": ["currencyconverter"]
-              }
-            },
-            "locales": {
-              "en": {
-                "title": "Currency Converter",
-                "text": "A simple currency converter application that allows users to convert between various currencies.",
-                "tags": ["React", "API", "Currency"]
-              }
-            }
-          },
-          {
-            "categoryId": "projects",
-            "icon": {
-              "img": "images/pictures/food.png",
-              "fa": "",
-              "faColors": {
-                "bg": null,
-                "fill": null
-              }
-            },
-            "links": [
-              {
-                "faIcon": "fa-solid fa-link",
-                "href": "https://github.com/Tharunraj-U/FOOD_APP-BACKEND.git"
-              }
-            ],
-            "media": {
-              "youtubeVideo": "",
-              "screenshots": {
-                "aspectRatio": null,
-                "images": ["fooddeliverybackend"]
-              }
-            },
-            "locales": {
-              "en": {
-                "title": "Food Delivery Backend",
-                "text": "A backend application for a food delivery system built with Spring Boot and JPA for database management.",
-                "tags": ["Spring Boot", "JPA", "Backend"]
-              }
-            }
-          },
-          {
-            "categoryId": "projects",
-            "icon": {
-              "img": "images/pictures/NewsApp.png",
-              "fa": "",
-              "faColors": {
-                "bg": null,
-                "fill": null
-              }
-            },
-            "links": [
-              {
-                "faIcon": "fa-solid fa-link",
-                "href": "https://code-n-surge-tech-titans.vercel.app/"
-              }
-            ],
-            "media": {
-              "youtubeVideo": "",
-              "screenshots": {
-                "aspectRatio": null,
-                "images": ["newswebsite"]
-              }
-            },
-            "locales": {
-              "en": {
-                "title": "News Website",
-                "text": "A dynamic news platform that fetches and displays live headlines from a news API. Users can browse categories, view details, and search for trending topics.",
-                "tags": ["React", "News API", "Tailwind CSS"]
-              }
+          "locales": {
+            "en": {
+              "title": "Shrinky",
+              "text": "A URL shortener application built with Java backend and React frontend.",
+              "tags": ["Java", "React", "Spring Boot", "URL Shortener"]
             }
           }
-        ]
-      }
-    ]
-  }
-  
+        },
+        {
+          "categoryId": "projects",
+          "icon": {
+            "img": "images/pictures/stone.png",
+            "fa": "",
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://github.com/Tharunraj-U/Rock-paper-scissors-js.git"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": ["stone"]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Stone Paper Scissors",
+              "text": "A classic game of rock, paper, scissors implemented with interactive features.",
+              "tags": ["React", "JavaScript"]
+            }
+          }
+        },
+        {
+          "categoryId": "projects",
+          "icon": {
+            "img": "images/pictures/mailsender.png",
+            "fa": "",
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://mail-sender-front-end.vercel.app/"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": ["mailsender"]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Email Sender",
+              "text": "An application to send emails using a Java backend and React.",
+              "tags": ["Java", "React", "Spring Boot"]
+            }
+          }
+        },
+        {
+          "categoryId": "projects",
+          "icon": {
+            "img": "images/pictures/cgpa.png",
+            "fa": "",
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://github.com/Tharunraj-U/CGPA-CALCULATOR-FRONTEND.git"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": ["cgpa"]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "CGPA Calculator",
+              "text": "An application to calculate CGPA based on grades and credit hours using JWT and MySQL for storing student data.",
+              "tags": ["Spring Boot", "Spring Security", "React", "Java MailSender", "MySQL", "JWT & OAuth2"]
+            }
+          }
+        },
+        {
+          "categoryId": "projects",
+          "icon": {
+            "img": "images/pictures/todo.png",
+            "fa": "",
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://tharun-todo-react.vercel.app/"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": ["todo"]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "ToDo List",
+              "text": "A task management application for creating, updating, and deleting tasks.",
+              "tags": ["React", "Tailwind CSS"]
+            }
+          }
+        },
+        {
+          "categoryId": "projects",
+          "icon": {
+            "img": "images/pictures/ChatApp.png",
+            "fa": "",
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://chatapplication-lu48.onrender.com/"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": ["chatapp"]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Chat App",
+              "text": "A real-time chat application built with WebSocket and Spring Boot for real-time communication.",
+              "tags": ["Spring Boot", "WebSocket", "React"]
+            }
+          }
+        },
+        {
+          "categoryId": "projects",
+          "icon": {
+            "img": "images/pictures/AiTutor.png",
+            "fa": "",
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://ai-tutor-two-orcin.vercel.app/"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": ["aitutor"]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "AI Tutor",
+              "text": "An AI-based tutor application using Gemmini|Lamma for interactive learning and answering questions.",
+              "tags": ["GPT-3", "AI", "Java", "Spring Boot"]
+            }
+          }
+        },
+        {
+          "categoryId": "projects",
+          "icon": {
+            "img": "images/pictures/Netflix.png",
+            "fa": "",
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://github.com/Tharunraj-U/Netflix.git"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": ["netflixclone"]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Netflix Clone",
+              "text": "A simple clone of Netflix built with React, MongoDB, and Express.",
+              "tags": ["MongoDB", "React", "Express"]
+            }
+          }
+        },
+        {
+          "categoryId": "projects",
+          "icon": {
+            "img": "images/pictures/Curr.png",
+            "fa": "",
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://github.com/Tharunraj-U/CurrencyConvertorBackend-.git"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": ["currencyconverter"]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Currency Converter",
+              "text": "A simple currency converter application that allows users to convert between various currencies.",
+              "tags": ["React", "API", "Currency"]
+            }
+          }
+        },
+        {
+          "categoryId": "projects",
+          "icon": {
+            "img": "images/pictures/food.png",
+            "fa": "",
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://github.com/Tharunraj-U/FOOD_APP-BACKEND.git"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": ["fooddeliverybackend"]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Food Delivery Backend",
+              "text": "A backend application for a food delivery system built with Spring Boot and JPA for database management.",
+              "tags": ["Spring Boot", "JPA", "Backend"]
+            }
+          }
+        },
+        {
+          "categoryId": "projects",
+          "icon": {
+            "img": "images/pictures/NewsApp.png",
+            "fa": "",
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://code-n-surge-tech-titans.vercel.app/"
+            }
+          ],
+          "media": {
+            "youtubeVideo": "",
+            "screenshots": {
+              "aspectRatio": null,
+              "images": ["newswebsite"]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "News Website",
+              "text": "A dynamic news platform that fetches and displays live headlines from a news API. Users can browse categories, view details, and search for trending topics.",
+              "tags": ["React", "News API", "Tailwind CSS"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
